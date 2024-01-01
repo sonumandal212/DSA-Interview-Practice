@@ -92,7 +92,7 @@ Constraints:
 1 <= ‘n’ <= 10^9
 
 ## CODE
-```
+```cpp
 #include<bits/stdc++.h>
 int countDigits(int n){
 	// Write your code here.
