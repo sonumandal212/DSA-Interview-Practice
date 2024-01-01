@@ -91,6 +91,7 @@ The expected time complexity is O(log n).
 Constraints:
 1 <= ‘n’ <= 10^9
 
+We can use (log10()+1) for counting the number of digits present in the number. ex: log10(7789) = 3.81... so, we can use (int)log10(7789)+1 = 4
 ## CODE
 ```cpp
 #include<bits/stdc++.h>
